@@ -45,7 +45,6 @@ const Dicecontainer = styled.div`
     
         width: 100%;
         min-height:70vh;
-        border: 2px solid black;
         display:grid;
         justify-content: center;
         align-items: center;

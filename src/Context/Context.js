@@ -7,7 +7,8 @@ export const ContextGame = createContext(
         toggleRules : () => {},
         userNum : undefined,
         diceNum : 1,
-        total : 0
+        total : 0,
+        rules : false
     }
 )
 

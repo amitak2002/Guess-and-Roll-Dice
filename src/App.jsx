@@ -35,14 +35,11 @@ function App() {
 
   
   return (
-    <ContextGameProvider value = {{toggle , userNum , diceNum  , total , setUserNum , setDiceNum , setTotal , toggleRules}}>
+    <ContextGameProvider value = {{toggle , userNum , diceNum  , total , setUserNum , setDiceNum , setTotal , toggleRules , rules}}>
     
       {/* {(play) ? <Play/> : <Home/>} */}
       {(play) ? <Play/> : (<Home/>)}
-      {(rules) ? <Rules/> : null}
-      
 
-      
       
     </ContextGameProvider>
   )
